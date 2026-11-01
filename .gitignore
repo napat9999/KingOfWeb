@@ -1,0 +1,14 @@
+# ความลับ: key ของ EmailJS ใน 3D_portfolio-main/.env ห้ามขึ้น GitHub
+.env
+**/.env
+*.local
+
+# dependency และไฟล์ build (ติดตั้งใหม่ได้ด้วย npm install)
+node_modules/
+dist/
+dist-ssr/
+
+# อื่น ๆ
+.DS_Store
+.vscode/
+*.log

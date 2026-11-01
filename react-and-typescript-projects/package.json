@@ -1,0 +1,29 @@
+{
+  "name": "react-and-typescript-projects",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Examples from Steve Kinney's \"React and TypeScript\" course for Frontend Masters (migrated from Create React App to Vite)",
+  "workspaces": [
+    "examples/*",
+    "projects/*"
+  ],
+  "scripts": {
+    "build:all": "npm run build --workspaces",
+    "typecheck:all": "npm run typecheck --workspaces --if-present"
+  },
+  "dependencies": {
+    "lodash.shuffle": "^4.2.0",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/lodash.shuffle": "^4.2.9",
+    "@types/react": "^17.0.93",
+    "@types/react-dom": "^17.0.26",
+    "@vitejs/plugin-react": "^6.1.2",
+    "sass": "^1.106.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5"
+  }
+}
