@@ -81,7 +81,6 @@ export const skills = [
     { imageUrl: github, name: "GitHub", type: "Version Control" },
 ];
 
-// ค่าย การแข่งขัน และกิจกรรม (เรียงจากล่าสุด)
 export const experiences = [
     {
         title: "ค่าย 1 สอวน. คอมพิวเตอร์",
