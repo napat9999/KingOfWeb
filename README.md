@@ -2,6 +2,15 @@
 
 งานเว็บที่ผมฝึกเขียน ตั้งแต่ HTML/CSS/JavaScript พื้นฐาน ไปจนถึง React, TypeScript และกราฟิก 3 มิติด้วย Three.js
 
+**ลองเปิดเว็บจริง**
+
+| เว็บ | ลิงก์ |
+| --- | --- |
+| เว็บ Portfolio 3 มิติ | https://napatnamwong-portfolio.vercel.app |
+| MathMentor AI (ผลงาน NSC) | https://mathmentor-ai-lyri.onrender.com |
+
+> MathMentor AI ใช้ Render แบบฟรี ถ้าไม่มีคนเข้าสักพักเว็บจะหลับ การเปิดครั้งแรกอาจต้องรอประมาณ 1 นาที
+
 | โฟลเดอร์ | เนื้อหา | เทคโนโลยี |
 | --- | --- | --- |
 | [`3D_portfolio-main/`](3D_portfolio-main) | เว็บแนะนำตัวแบบเกาะ 3 มิติ | React, Three.js, Tailwind CSS |
@@ -10,10 +19,12 @@
 
 ## 1. เว็บ Portfolio 3 มิติ
 
+🔗 **เว็บจริง:** https://napatnamwong-portfolio.vercel.app
+
 เว็บแนะนำตัวที่เป็นเกาะ 3 มิติ ลากเมาส์หรือกดลูกศรเพื่อหมุนเกาะ แต่ละมุมจะมีป้ายพาไปหน้าอื่น
 
 - **About:** ผลการเรียน ทักษะ และไทม์ไลน์ค่าย/การแข่งขันของผม ตั้งแต่ AI Camp มข. ถึงค่าย สอวน. คอมพิวเตอร์ ข้อมูลทั้งหมดเก็บไว้ใน `src/constants/index.js` แก้ไฟล์เดียวแล้วหน้าเว็บเปลี่ยนตาม
-- **Projects:** ผลงานของผม เช่น MathMentor AI
+- **Projects:** ผลงานของผม เช่น [MathMentor AI](https://mathmentor-ai-lyri.onrender.com)
 - **Contact:** ฟอร์มส่งอีเมลผ่าน EmailJS โดยเก็บคีย์ไว้ใน `.env` ไม่ฝังในโค้ด
 - **3 มิติ:** โหลดโมเดล `.glb` ด้วย React Three Fiber, คำนวณมุมหมุนของเกาะเพื่อเปลี่ยนป้ายข้อมูล, ปรับขนาดฉากตามความกว้างจอ
 - ปรับฟอนต์ภาษาไทย (Prompt) และไอคอนให้ตรงกับเนื้อหาของผม
