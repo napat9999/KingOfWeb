@@ -4,6 +4,8 @@
 
 🔗 **เว็บจริง:** https://napatnamwong-portfolio.vercel.app
 
+<img src="docs/qr-portfolio.png" alt="QR code เว็บ Portfolio 3 มิติ" width="160">
+
 ```bash
 npm install
 npm run dev
